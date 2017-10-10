@@ -1,1 +1,8 @@
 # FinacialManagement
+This is a financial management application. Let's say our financial management client needs some software to keep track of different types of accounts.
+
+Savings accounts have an account number, a first and last name for the account holder, a primary mailing address of the account holder, a balance, and an annual interest rate. One can make deposits and withdrawals from a savings account. Savings accounts earn income over time. These accounts earn interest once a year on January 1st. Our client needs to generate reports that include the account number, the name and primary address of the account holder, the current balance, information about all the transactions, the balance in the account after each compounding, and the annual interest rate. Every report will have a date that it was generated.
+
+In addition to savings accounts our client manages equity accounts. Equity accounts have an account number, a first and last name for the account holder, a primary mailing address of the account holder, a list of stock purchases, and the total value of the stock portfolio. Each stock purchase has a stock name, ticker symbol, purchase price per share, and number of shares at that price. Our client needs to generate reports that include the account number, the name and primary address of the account holder, a list of all stock information, and a total value for the account. You should grab the current values of stocks from an internet service like Yahoo!. Every report will have a date that it was generated.
+
+All reports are written to a single html file that can be opened in a browser. It Prints the reports from the most valuable account to the least valuable account.
